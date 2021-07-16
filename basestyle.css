@@ -1,0 +1,27 @@
+/* You can just put in bare css, there's no header or anything required. */
+/* That's pretty convenient! */
+/* Assuming that this file is the first thing in the header, subsequent html styling will overwrite it. */
+/* I assume I need to include this somehow… But the idea is sound, I don't /really/ use different formatting per-se, and if I need something specific (like table formatting), there's nothing stopping me from defining that locally. */\
+
+
+body
+	{
+	color: black;
+	background-color: #CFF;
+	}
+p
+	{
+	font-size: 2em;
+	font-weight: 400;
+	}
+#else
+	{
+	font-size: 2em;
+	font-weight: 800;
+	}
+p.note /* . for class, p.[class] selects all par of class */
+	{
+	font-size: .5em;
+	font-weight: 300;
+	color: darkgrey;
+	}
